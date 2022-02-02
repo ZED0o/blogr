@@ -1,0 +1,35 @@
+.par-3 {
+    background-image: url(./images/bg-pattern-circles.svg);
+    display: flex;
+    color: white;
+    flex-direction: row;
+    background-color: hsl(208, 49%, 24%);
+    height: 400px;
+    background-size: cover;
+    margin-left: -1%;
+    width: 102%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+    margin-top: 100px;
+    transition-duration: 1s;
+}
+
+.par-3 div {
+    position: absolute;
+    margin-right: -2000px;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+    width: 40%;
+    filter: blur(0.5);
+    -webkit-filter: blur(0.5);
+}
+
+.par-3 img {
+    margin-left: -500px;
+    width: 40%;
+    filter: blur(0.5);
+    -webkit-filter: blur(0.5);
+}

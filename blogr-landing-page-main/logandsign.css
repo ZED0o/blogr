@@ -1,0 +1,223 @@
+.sign {
+    display: flex;
+    top: 1px;
+    z-index: 100;
+    position: fixed;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+    justify-content: center;
+    width: 102%;
+    height: 110%;
+    background: #fd19394f;
+    transition-duration: 1s;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.logmeun {
+    display: flex;
+    top: 1px;
+    z-index: 100;
+    position: fixed;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+    justify-content: center;
+    width: 102%;
+    height: 110%;
+    background: #fd19394f;
+    transition-duration: 1s;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+
+.sign form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 3px solid indianred;
+    margin-top: -50px;
+    border-radius: 26px;
+    margin-left: 5%;
+    width: 350px;
+    height: 50%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    align-content: center;
+}
+
+.logmeun form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 3px solid indianred;
+    margin-top: -50px;
+    border-radius: 26px;
+    margin-left: 5%;
+    width: 350px;
+    height: 37%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    align-content: center;
+}
+
+.sign input {
+    border: none;
+    border-bottom: 3px solid #00000082;
+    padding: 1%;
+    transition-duration: 0.2s;
+    color: indianred;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.logmeun input {
+    border: none;
+    border-bottom: 3px solid #00000082;
+    padding: 1%;
+    transition-duration: 0.2s;
+    color: indianred;
+    font-family: sans-serif;
+    font-size: 19px;
+    width: 300px;
+}
+
+.sign input:focus {
+    outline: none;
+    color: indianred;
+}
+
+.logmeun input:focus {
+    outline: none;
+    color: indianred;
+}
+
+.sign .line {
+    position: absolute;
+    top: 75.8px;
+    left: 61px;
+    transition-duration: 0.5s;
+    background: indianred;
+    height: 3px;
+    width: 1px;
+}
+
+.sign .line2 {
+    position: absolute;
+    top: 152px;
+    left: 61px;
+    transition-duration: 0.5s;
+    background: indianred;
+    height: 3px;
+    width: 1px;
+}
+
+.logmeun .line {
+    position: absolute;
+    top: 70.6px;
+    left: 26px;
+    transition-duration: 0.5s;
+    background: indianred;
+    height: 3px;
+    width: 1px;
+}
+
+.logmeun .line2 {
+    position: absolute;
+    top: 144.8px;
+    left: 26px;
+    transition-duration: 0.5s;
+    background: indianred;
+    height: 3px;
+    width: 1px;
+}
+
+.sign .line3 {
+    position: absolute;
+    top: 230.8px;
+    left: 61px;
+    transition-duration: 0.5s;
+    background: indianred;
+    height: 3px;
+    width: 1px;
+}
+
+.sign button {
+    font-size: 30px;
+    background: indianred;
+    border: 1px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 14px;
+}
+
+.logmeun button {
+    font-size: 30px;
+    background: indianred;
+    border: 1px;
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 14px;
+    width: 190px;
+}
+
+.closesign {
+    display: flex;
+    position: absolute;
+    border: 5px solid;
+    height: 47px;
+    top: 40px;
+    right: 40px;
+    color: white;
+    font-size: 45px;
+    border-radius: 34px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    justify-content: flex-end;
+    flex-direction: column;
+    transition-duration: 0.2s;
+}
+
+.closelog {
+    display: flex;
+    position: absolute;
+    border: 5px solid;
+    height: 47px;
+    top: 40px;
+    right: 40px;
+    color: white;
+    font-size: 45px;
+    border-radius: 34px;
+    text-align: center;
+    width: 60px;
+    cursor: pointer;
+    justify-content: flex-end;
+    flex-direction: column;
+    transition-duration: 0.2s;
+}
+
+.closesign:hover {
+    color: indianred;
+}
+
+.closelog:hover {
+    color: indianred;
+}

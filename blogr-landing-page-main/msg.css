@@ -1,0 +1,67 @@
+.msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid indianred;
+    left: -500px;
+    border-radius: 20px;
+    opacity: 0.7;
+    width: 308px;
+    height: 180px;
+    justify-content: center;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    background-color: #fdfdfd73;
+    position: fixed;
+    bottom: -400px;
+    transition-duration: 1s;
+    z-index: 33;
+}
+
+.msg:hover {
+    opacity: 1;
+    background-color: #fdfdfd8e;
+}
+
+.fmsg {
+    background: indianred;
+    width: 100%;
+    height: 35%;
+    text-align: center;
+    display: flex;
+    color: white;
+    padding-top: 5%;
+    font-size: 22px;
+    margin-top: 0%;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+.smsg {
+    margin-top: -8%;
+    text-align: center;
+    color: indianred;
+    font-family: fantasy;
+}
+
+.btnmsg {
+    background: #cd5c5cb3;
+    backdrop-filter: blur(4px);
+    color: white;
+    border: 1px;
+    border-radius: 30px;
+    width: 130px;
+    font-size: 18px;
+    height: 40px;
+    font-family: cursive;
+    margin-top: -2%;
+    transition-duration: 0.5s;
+}
+
+.btnmsg:hover {
+    background: #e44c4ccc;
+    width: 140px;
+    height: 42px;
+    font-size: 19px;
+}
